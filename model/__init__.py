@@ -4,11 +4,13 @@ from .dmd import DMD
 from .gan import GAN
 from .sid import SiD
 from .ode_regression import ODERegression
+from .piflow import PiFlowID
 __all__ = [
     "CausalDiffusion",
     "CausVid",
     "DMD",
     "GAN",
     "SiD",
-    "ODERegression"
+    "ODERegression",
+    "PiFlowID",
 ]
